@@ -1,3 +1,11 @@
+/*
+Recipe app - created by Barak Levy
+using the recipes api of  TheMealDB's  in order to get some random meals by pressing a button
+style using react bootstrap 4 
+deploy with fire base
+
+*/
+
 import React from "react";
 import "./main_page.css";
 import { Card, Image, Button, ListGroup, ListGroupItem } from "react-bootstrap";
@@ -10,7 +18,7 @@ class Main extends React.Component {
     };
     this.generate_meal = this.generate_meal.bind(this);
   }
-  componentDidMount() {}
+
   generate_meal() {
     fetch("https://www.themealdb.com/api/json/v1/1/random.php")
       .then(res => res.json())
