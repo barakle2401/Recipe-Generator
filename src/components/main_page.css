@@ -1,0 +1,57 @@
+/* .main {
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 8em;
+} */
+ul {
+  list-style: none;
+}
+.container {
+  position: relative;
+  width: 50%;
+}
+
+/* Make the image responsive */
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: Transparent;
+  outline: none;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+  color: rgb(233, 25, 240);
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container .btn:hover {
+  background-color: rgb(70, 0, 49);
+  color: aliceblue;
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+}
+
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
