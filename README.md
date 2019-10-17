@@ -12,4 +12,4 @@ the recipe include:
 * instructions 
 * video of recipe instructions
 ### supported mobile devices display by bootstrap 
-## backgrourd by :  [FREE FRONTEND](https://freefrontend.com/css-animated-backgrounds/).
+## backgrourd by :  [free frontend](https://freefrontend.com/css-animated-backgrounds/).
