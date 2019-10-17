@@ -11,3 +11,5 @@ the recipe include:
 * ingredients
 * instructions 
 * video of recipe instructions
+### supported mobile devices display by bootstrap 
+## backgrourd by :  [FREE FRONTEND](https://freefrontend.com/css-animated-backgrounds/).
