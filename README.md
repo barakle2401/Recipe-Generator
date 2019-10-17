@@ -1,7 +1,7 @@
 
 ## Recipes Generator site 
 developed in react js and style using bootstrap 4 
-live demo [Recipe Generator](https://recipegenerator-24401.firebaseapp.com/).
+## live version [Recipe Generator](https://recipegenerator-24401.firebaseapp.com/).
 
 the recipes data are from  [TheMealDB's  public API](https://www.themealdb.com/api.php).
 
